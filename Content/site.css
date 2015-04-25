@@ -1,0 +1,47 @@
+﻿
+.alerts {
+    position: fixed;
+    width: 300px;
+    right: 30px;
+    top: 90px !Important;
+    z-index: 10;
+}
+
+    .alerts > .alert-dismissable {
+        position: relative;
+        z-index: 11;
+        min-width: 250px;
+    }
+
+        .alerts > .alert-dismissable > label {
+            font-weight: bold !important;
+        }
+
+.alert {
+    border-radius: 3px;
+}
+
+    .alert h4 {
+        font-weight: 600;
+    }
+
+    .alert .icon {
+        margin-right: 10px;
+    }
+
+    .alert .close {
+        color: #000;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+    }
+
+        .alert .close:hover {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+
+    .alert a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
