@@ -1,4 +1,4 @@
-# BootstrapStickyAlertAngualrJsService
+# BootstrapStickyAlertAngularJsService
 Bootstrap 3.0 Sticky Alerts using Angular JS service
 
 Tired of using boring alerts, implemeneted angularJs service to mock stick alerts using bootstrap 3.0.
